@@ -44,7 +44,7 @@ bundle install;
 echo "Creating metasploit symbolic link..."
 cd /opt/metasploit-framework;
 for MSF in $(ls msf*); do ln -s /opt/metasploit-framework/$MSF /usr/local/bin/$MSF;done;
-echo "End! Have a fun!";
+echo "End! Enjoy!";
 echo "Features: metasploit+sqlmap+atscan+netcat+tor+proxychains";
 echo "tools dir: cd /tools";
 echo "Sqlmap dir: cd /tools/sqlmap";
@@ -53,4 +53,4 @@ echo "Atscan dir: cd /tools/ATSCAN";
 echo "Atscan usage: perl atscan.pl -h";
 echo "Metasploit usage: msfconsole";
 echo "Netcat usage for port scan: nc -v -n -z -w 1 192.168.0.10 443"
-echo "@thelinuxchoice :)";
+echo "Follow @thelinuxchoice (Instagram) :)";
