@@ -1,9 +1,9 @@
 # debiantools
 Hacker tools for GNURoot Debian Android app
-#Usage:
-su
-apt-get update
-apt-get install git
-git clone https://github.com/thelinuxchoice/debiantools
-chmod +x debiantools.sh
-./debiantools.sh
+# Usage:
+su </br>
+apt-get update</br>
+apt-get install git</br>
+git clone https://github.com/thelinuxchoice/debiantools</br>
+chmod +x debiantools.sh</br>
+./debiantools.sh</br>
