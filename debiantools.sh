@@ -3,7 +3,7 @@
 # by @thelinuxchoice
 trap 'printf "\e[101m \n Ctrl+C was pressed before instalation ends. Run this script again, exiting.. \n\n \e[0m"; exit 0' 2
 printf "\e[101m[*] Warning: Complete installation takes a long time, please wait... \e[0m \n"
-printf "\e[1;92mUpdating and installing dependencies...\n \e[0m"
+printf "\e[1;92m Updating and installing dependencies...\n \e[0m"
 sleep 2;
 apt-get update;
 apt-get upgrade -y;
@@ -66,20 +66,20 @@ echo "alias msfvenom='source /etc/profile.d/rvm.sh; msfvenom'" >> /root/.bashrc;
 fi
 
 printf "\e[1;92m[+] End! Enjoy!\n\e[0m"
-printf "\e[1;92m[+] Features: \e[0m"
+printf "\e[1;92m [+] Features: \e[0m"
 printf "\e[1;77m metasploit+sqlmap+atscan+netcat+tor+proxychains \n\e[0m"
-printf "\e[1;92m[+] tools dir: \e[0m"
+printf "\e[1;92m [+] tools dir: \e[0m"
 printf "\e[1;77m cd /tools \n\e[0m"
-printf "\e[1;92m[+] Sqlmap dir: \e[0m"
+printf "\e[1;92m [+] Sqlmap dir: \e[0m"
 printf "\e[1;77mcd /tools/sqlmap \n \e[0m"
 printf "\e[1;92m[+] Sqlmap usage: \e[0m"
 printf "\e[1;77mpython sqlmap.py -hh \n \e[0m"
-printf "\e[1;92m[+] Atscan dir: "
+printf "\e[1;92m[+] Atscan dir: \e[0m"
 printf "\e[1;77mcd /tools/ATSCAN \n \e[0m"
-printf "\e[1;92m[+] Atscan usage: "
+printf "\e[1;92m[+] Atscan usage: \e[0m"
 printf "\e[1;77mperl atscan.pl -h \n \e[0m"
 printf "\e[1;92m[+] Metasploit usage: \e[0m"
 printf "\e[1;77mmsfconsole \n"
-printf "\e[1;92m[+] Netcat usage for port scan: \e[0m"
+printf "\e[1;92m [+] Netcat usage for port scan: \e[0m"
 printf "\e[1;77mnc -v -n -z -w 1 192.168.0.10 443 \n \e[0m"
 printf "\e[101m[*] Follow @thelinuxchoice (Instagram) :) \e[0m \n"
