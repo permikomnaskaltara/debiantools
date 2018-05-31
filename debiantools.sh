@@ -7,7 +7,7 @@ printf "\e[1;92m Updating and installing dependencies...\n \e[0m"
 sleep 2;
 apt-get update;
 apt-get upgrade -y;
-apt-get install build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev vncviewer libyaml-dev curl zlib1g-dev gnupg2 nano wget tor proxychains net-tools netcat -y;
+apt-get install build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev vncviewer libyaml-dev curl zlib1g-dev gnupg2 nano wget tor proxychains net-tools netcat -y;
 printf "\e[1;92mCreating tools dir /tools ...\n \e[0m"
 sleep 2;
 mkdir /tools;
